@@ -11,7 +11,7 @@ export default function Home() {
             width={320}
             height={120}
             priority
-            className="h-auto w-[40vw] sm:w-[30vw] md:w-[24vw] lg:w-[18vw] xl:w-56"
+            className="h-auto w-[40vw] sm:w-[30vw] md:w-[24vw] lg:w-[18vw] xl:w-56 animate-fade-in-up animation-delay-200"
           />
         </div>
         {/* Main heading with background text */}
