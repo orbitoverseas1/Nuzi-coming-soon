@@ -17,6 +17,15 @@ const greatVibes = Great_Vibes({
 export const metadata: Metadata = {
   title: "Coming Soon - Nuzi",
   description: "Something exciting is coming soon!",
+  icons: {
+    icon: [
+      { url: "/Nuzi-logo.jpg", sizes: "32x32", type: "image/jpeg" },
+      { url: "/Nuzi-logo.jpg", sizes: "180x180", type: "image/jpeg" },
+      { url: "/Nuzi-logo.jpg", sizes: "512x512", type: "image/jpeg" },
+    ],
+    apple: "/Nuzi-logo.jpg",
+    shortcut: "/Nuzi-logo.jpg",
+  },
 };
 
 export default function RootLayout({
