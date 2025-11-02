@@ -1,7 +1,19 @@
+import Image from 'next/image'
+
 export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden">
-      <div className="w-full text-center flex flex-col items-center justify-center">
+      <div className="w-full text-center flex flex-col items-center justify-center -mt-10 sm:-mt-14 md:-mt-16 lg:-mt-20 xl:-mt-24">
+        <div className="w-full flex items-center justify-center mt-4 mb-6">
+          <Image 
+            src="/NUZI-LOGO-V4.png" 
+            alt="Nuzi logo"
+            width={320}
+            height={120}
+            priority
+            className="h-auto w-[40vw] sm:w-[30vw] md:w-[24vw] lg:w-[18vw] xl:w-56"
+          />
+        </div>
         {/* Main heading with background text */}
         <div className="relative mb-20 sm:mb-24 md:mb-32 w-full flex items-center justify-center">
           {/* Large background "COMING SOON" */}
