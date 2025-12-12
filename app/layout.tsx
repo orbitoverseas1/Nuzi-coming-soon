@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${playfair.variable} ${greatVibes.variable} antialiased`}
+        className={`${playfair.variable} ${greatVibes.variable} antialiased bg-[#c8a19c]`}
       >
         {children}
       </body>
